@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Ecommerce</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome-free@6.1.2/css/fortawesome.min.css">
+
+</head>
+    <body>
+        <div class="header">
+            <div class="container">
+                <div class="navbar">
+                    <div class="logo">
+                        <img src="imagenes/logo-nike.png" width="125px">
+                    </div>
+                    <nav>
+                        <ul id="MenuItems">
+                            <li><a href="">Inicio</li>
+                            <li><a href="productos.html">Productos</li>
+                            <li><a href="">Acerca de..</li>
+                            <li><a href="contacto.html">Contacto</li>
+                            <li><a href="carrito.html">Cuenta</li>
+                        </ul>
+                    </nav>
+                    <img src="imagenes/carrito.png" width="30px" height="30px">
+                    <img src="imagenes/menu.jpg" class="menu-icon" onclick="menutoggle()">
+                </div>
+                <div class="row">
+                    <div class="col-2">
+                        <h1>Dale a tu vida <br>un nuevo estilo!</h1>
+                        <p>El exito no siempre otorga la grandeza, sino tambien constancia.
+                        El trabajo constante obtiene el exito y la grandeza viene despues.
+                        </p>
+                        <a href="" class="btn">Explorar &#8594;</a>
+                    </div>
+                    <div class="col-2">
+                        <img src="imagenes/imagen1.jpg">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!------ categorias ------>
+        <div class="categorias">
+            <div class="small-container">
+                <div class="row">
+                    <div class="col-3">
+                        <img src="imagenes/categoria-1.jpg">
+                    </div>
+                    <div class="col-3">
+                        <img src="imagenes/categoria-2.jpg">
+                    </div>
+                    <div class="col-3">
+                        <img src="imagenes/categoria-3.jpg">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-----productos destacados----->
+        <div class="small-container">
+            <h2 class="title">Productos Destacados</h2>
+            <div class="row">
+                <div class="col-4">
+                    <img src="imagenes/productos-1.jpg">
+                    <h4>Playera Roja</h4>
+                    <div class="puntuacion">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <p>Precio $600.00</p>
+                </div>
+                <div class="col-4">
+                    <img src="imagenes/productos-2.jpg">
+                    <h4>Tenis deportivos</h4>
+                    <div class="puntuacion">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <p>Precio $1050.00</p>
+                </div>
+                <div class="col-4">
+                    <img src="imagenes/productos-3.jpg">
+                    <h4>Tenis Casuales</h4>
+                    <div class="puntuacion">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <p>Precio $2200.00</p>
+                </div>
+                <div class="col-4">
+                    <img src="imagenes/productos-4.png">
+                    <h4>Camisa Tipo Polo</h4>
+                    <div class="puntuacion">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <p>Precio $1000.00</p>
+                </div>
+                </div>
+            <h2 class="title">Ultimos Productos</h2>
+            <div class="row">
+                <div class="col-4">
+                    <img src="imagenes/productos-5.jpg">
+                    <h4>Tenis</h4>
+                    <div class="puntuacion">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <p>Precio $1900.00</p>
+                    </div>
+                    <div class="col-4">
+                        <img src="imagenes/productos-6.jpg">
+                        <h4>Camisa manga/corta</h4>
+                        <div class="puntuacion">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                        <p>Precio $950.00</p>
+                    </div>
+                    <div class="col-4">
+                        <img src="imagenes/productos-7.jpg">
+                        <h4>Calcetones</h4>
+                        <div class="puntuacion">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                        <p>Precio $120.00</p>
+                    </div>
+                    <div class="col-4">
+                        <img src="imagenes/productos-8.jpg">
+                        <h4>Reloj de Marca</h4>
+                        <div class="puntuacion">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                        <p>Precio $6500.00</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-4">
+                        <img src="imagenes/productos-9.png">
+                        <h4>Relojes de Marca</h4>
+                        <div class="puntuacion">  
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                        <p>Precio $7000.00</p>
+                    </div>
+                    <div class="col-4">
+                        <img src="imagenes/productos-10.png">
+                        <h4>Tenis Casuales</h4>
+                        <div class="puntuacion">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                        <p>Precio $3600.00</p>
+                    </div>
+                    <div class="col-4">
+                        <img src="imagenes/productos-11.png">
+                        <h4>Tenis Casuales</h4>
+                        <div class="puntuacion">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                        <p>Precio $3600.00</p>
+                    </div>
+                    <div class="col-4">
+                        <img src="imagenes/productos-12.jpg">
+                        <h4>Pants Deportivos</h4>
+                        <div class="puntuacion">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                        <p>Precio $1200.00</p>
+                    </div>
+                    </div>
+            </div>
+            <!----Ofertas-->
+
+            <div class="ofertas">
+                <div class="small-container">
+                    <div class="row">
+                        <div class="col-2">
+                            <img src="imagenes/exlusivo.jpg" class="imagen-ofertas">
+                        </div>
+                        <div class="col-2">
+                            <p>Producto exlusivo de Nuestra tienda.</p>
+                            <h1>Apple Watch Nike</h1>
+                            <small>Descripcion del Apple Watch Nike, pantalla Amoled Gorilla Glass</small>
+                            <br>
+                            <a href="" class="btn">Comprar Ahora &#8594</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+<!----------testimoniales----->
+<div class="testimonios">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-3">
+                <i class=" fa fa-quote-left"></i>
+                <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur nesciunt corporis quia voluptates 
+                    laudantium perferendis, est in neque ab ipsum eos accusantium eius iste nobis 
+                    suscipit autem non quidem quis.</p>
+                    <div class="puntuacion">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <img src="imagenes/usuario-1.JPG">
+                    <h3>Juana Perez Perez</h3>
+                </div>
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Id dolor exercitationem blanditiis 
+                        ad velit soluta animi dolorum. Unde corrupti quo inventore officiis officia, quod alias vero facilis esse provident quas!</p>
+                        <div class="puntuacion">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </div>
+                        <img src="imagenes/usuario-2.JPG">
+                        <h3>Pedro Perez Perez</h3>
+                </div>
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores libero magni labore voluptates ducimus temporibus doloribus ipsa praesentium
+                         unde obcaecati nulla ab et, reiciendis possimus incidunt facere adipisci eius. Animi?</p>
+                         <div class="puntuacion">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                         </div>
+                         <img src="imagenes/usuario-3.JPG">
+                         <h3>Diana Perez Perez</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+            
+<!-----Marcas--->
+<div class="marcas">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-5">
+                <img src="imagenes/logo-godrej.JPG">
+            </div>
+            <div class="col-5">
+              <img src="imagenes/logo-coca-cola.JPG">  
+            </div>
+            <div class="col-5">
+                <img src="imagenes/logo-oppo.JPG">
+            </div>
+            <div class="col-5">
+                <img src="imagenes/logo-paypal.JPG">
+            </div>
+            <div class="col-5">
+                <img src="imagenes/logo-philips.JPG">
+            </div>
+        </div>
+    </div>
+</div>    
+
+<!----- footer ----->
+
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Descarga Nuestra App <br> y disfruta los beneficios</h3>
+                <p>Disponible para Android, IOS y Proximamente HarmonyOS</p>
+                <div class="app-logo">
+                    <img src="imagenes/play-store.JPG">
+                    <img src="imagenes/app-store.JPG">
+                </div>
+            </div>
+            <div class="footer-col-2">
+                <img src="">
+                <p>Nuestra Mision es darle a todos los beneficios del Deporte</p>
+            </div>
+            <div class="footer-col-3">
+                <h3>Sitios de Interes</h3>
+                <ul>
+                    <li>Cupones</li>
+                    <li>Blog Publicaciones</li>
+                    <li>Politica de Devolucion</li>
+                    <li>Afiliate</li>
+                </ul>
+            </div>
+            <div class="footer-col-4">
+                <h3>Siguenos</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Twitter</li>
+                    <li>Instagram</li>
+                    <li>Youtube</li>
+                </ul>
+            </div>
+
+        </div>
+        <hr>
+        <p class="copyright"><span>&#169;</span> Derechos Reservados</p>
+    </div>
+</div>
+
+<!---------- JavaScript para Menu------>
+<script>
+    var MenuItems = document.getElementById("MenuItems");
+
+    MenuItems.style.maxHeight ="0px";
+
+    function menutoggle(){
+        if(MenuItems.style.maxHeight =="0px")
+        {
+            MenuItems.style.maxHeight = "200px";
+        }
+        else
+        {
+            MenuItems.style.maxHeight = "0px";
+        }
+    }
+</script>
+
+
+</body>
+</html>

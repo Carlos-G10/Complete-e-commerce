@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos</title>
+    <link rel="stylesheet" href="stylee.css">
+    <link href="htpps://fonts.googleapis.com/cssfamily=Gentium+Book+Plus&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,200&display=swap" rel="sttlesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css">
+
+</head>
+<body>
+    
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="imagenes/logo-nike.png" width="125px">
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="index.html">Inicio</li>
+                    <li><a href="">Productos</li>
+                    <li><a href="">Acerca de...</li>
+                    <li><a href="">Contacto</li>
+                    <li><a href="">Cuenta</li> 
+                </ul>
+            </nav>
+            <img src="imagenes/carrito.png" width="30px" height="30px">
+            <img src="imagenes/menu.jpg" class="menu-icon" onclick="menutoggle()">
+        </div>
+    </div>
+
+<div class="samll-container">
+    <div class="row row-2">
+        <h2>Todos los productos</h2>
+        <select>
+            <option>Ordenados por Defaut</option>
+            <option>Ordenados por Precio</option>
+            <option>Ordenados por Popularidad</option>
+            <option>Ordenados por Raiting</option>
+            <option>Ordenados por Ventas</option>
+        </select>
+    </div>
+
+    <div class="row">
+        <div class="col-4">
+            <img src="imagenes/productos-1.jpg">
+            <h4>Camiseta</h4>
+            <div class="puntuacion">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <p>Precio $ 50.00</p>
+        </div>
+        <div class="col-4">
+            <img src="imagenes/productos-2.jpg">
+            <h4>Zapatillas Deportivas</h4>
+            <div class="puntuacion">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <p>Precio $ 1050.00</p>
+        </div>
+        <div class="col-4">
+            <img src="imagenes/productos-3.jpg">
+            <h4>Tenis Casuales</h4>
+            <div class="puntuacion">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <p>Precio $ 800.00</p>
+        </div>
+        <div class="col-4">
+            <img src="imagenes/productos-4.png">
+            <h4>Camiseta Tipo Polo</h4>
+            <div class="puntuacion">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <p>Precio $ 250.00</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-4">
+            <img src="imagenes/productos-5.jpg">
+            <h4>Tennis Bota</h4>
+            <div class="puntuacion">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <p>Precio $ 50.00</p>
+        </div>
+        <div class="col-4">
+            <img src="imagenes/productos-6.jpg">
+            <h4>Camisa manga/corta</h4>
+            <div class="puntuacion">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <p>Precio $ 350.00</p>
+        </div>
+        <div class="col-4">
+            <img src="imagenes/productos-7.jpg">
+            <h4>Calcetones</h4>
+            <div class="puntuacion">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <p>Precio $ 120.00</p>
+        </div>
+        <div class="col-4">
+            <img src="imagenes/productos-8.jpg">
+            <h4>Reloj de Marca</h4>
+            <div class="puntuacion">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <p>Precio $ 1050.00</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-4">
+            <img src="imagenes/productos-9.png">
+            <h4>Relojes de Marca</h4>
+            <div class="puntuacion">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+            </div>   
+            <p>Precio $ 50.00</p>
+        </div>
+        <div class="col-4">
+            <img src="imagenes/productos-10.png">
+            <h4>Zapatillas Deportivas</h4>
+            <div class="puntuacion">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <p>Precio $ 1050.00</p>
+        </div>
+        <div class="col-4">
+            <img src="imagenes/productos-11.png">
+            <h4>Tenis Casuales</h4>
+            <div class="puntuacion">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <p>Precio $ 800.00</p>
+        </div>
+        <div class="col-4">
+            <img src="imagenes/productos-12.jpg">
+            <h4>Pants Elegantes</h4>
+            <div class="puntuacion">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <p>Precio $ 250.00</p>
+        </div>
+    </div>
+    <div class="page-btn">
+        <span>1</span>
+        <span>2</span>
+        <span>3</span>
+        <span>4</span>
+        <span>&#8594</span>
+    </div>
+</div>
+
+<!-------- footer ----->
+
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Descarga nuestra App <br> y disfruta los beneficios </h3>
+                <p>Disponible para Androir, IOS</p>
+                <div class="app-logo">
+                    <img src="imagenes/play-store.JPG">
+                    <img src="imagenes/app-store.JPG"> 
+                </div>
+            </div>
+            <div class="footer-col-2">
+                <img src="">
+                <p>Nuestra misiones darle todos los beneficios de los casual</p>
+            </div>
+        </div>
+        <h3>Sitios de Interes</h3>
+        <ul>
+            <li>Cupones</li>
+            <li>Blog Publicaciones</li>
+            <li>Politica de Devolucion</li>
+            <li>Afiliate</li>
+        </ul>
+    </div>
+    <div class="footer*col-4">
+        <h3>Siguenos</h3>
+        <ul>
+            <li>Facebook</li>
+            <li>Twitter</li>
+            <li>Instagram</li>
+            <li>Youtube</li>
+        </ul>
+    </div>
+    
+</div>
+<hr>
+<p class="copyright"><span>&#169;</span> Derechos Reservados</p>
+</div>
+</div>
+<!------- JavaScript para menu----->
+<script>
+    var MenuItems = document.getElementById("MenuItems");
+
+    MenuItems.style.maxHeight ="0px";
+
+    function menutoggle(){
+        if(MenuItems.style.maxHeight =="0px")
+        {
+            MenuItems.style.maxHeight = "200px";
+        }
+        else
+        {
+            MenuItems.style.maxHeight = "0px";
+        }
+    }
+</script>
+
+
+</body>
+</html>

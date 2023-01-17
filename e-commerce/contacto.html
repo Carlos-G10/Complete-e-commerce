@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>Contacto</title>
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+<body>
+    <div class="contact-title">    
+          <h1>Obtener Ayuda</h1>
+          <h2>Contactanos</h2>
+            <h3>Escribenos y en breve nos pondremos en contacto contigo</h3>
+    </div>
+    <div class="contact-form">
+        <form id="contact-form" method="post" action="contacto.php">       
+            <label>Nombre *</label>
+            <input name="name" type="text" class="form-control" placeholder="Escribe tu nombre" required>
+                  
+                    <p>
+            <label>Email *</label>
+            <input name="email" type="email" class="form-control" placeholder="Escribe tu Email" required>
+                    </p>
+                      
+                    <p>
+            <label>Asunto *</label>
+            <input name="asunto" type="text" placeholder="Escribe un asunto" required>
+                    </p>    
+                  
+                    <p>
+            <label>Mensaje *</label>                     
+            <textarea name="message" class="form-control" placeholder="Deja aquí tu comentario..." rows="4" required></textarea> 
+                    </p>                    
+                  
+            <input name="Enviar" type="submit" class="form-control submit" value="ENVIAR"><p>Enviar</p>
+    
+                    <p>
+                      Los campos son obligatorios.
+                    </p>          
+                
+              </form>
+        </div>  
+      </div>
+    
+</body>
+</html>
